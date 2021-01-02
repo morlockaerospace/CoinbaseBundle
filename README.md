@@ -34,7 +34,10 @@ coinbase_commerce:
 edit your composer with the bundle library and version
 
 ```
-composer require borsaco/coinbase-bundle
+composer config borsaco/coinbase-bundle vcs https://github.com/morlockaerospace/CoinbaseBundle
+composer show borsaco/coinbase-bundle --all
+composer require borsaco/coinbase-bundle:dev-master
+composer require guzzlehttp/guzzle
 ```
 
 ## Development
